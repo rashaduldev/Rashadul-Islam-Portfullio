@@ -106,6 +106,7 @@ h4{
     cursor: pointer;
 }
 /* header & navber part end */
+/* About Part start */
 .about{
     width: 100%;
     padding: 100px 0px;
@@ -161,3 +162,4 @@ button:hover{
     border: 2px solid red;
     cursor: pointer;
 }
+/* About Part End */
