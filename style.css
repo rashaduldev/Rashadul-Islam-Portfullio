@@ -364,16 +364,17 @@ footer p:nth-child(2){
     margin: 22px 10px;
     text-decoration: none;
 }
-.social a:hover{
-    transform: scale(1.3);
-    transition: .3s;
-}
-.end{
+.social .end{
     position: absolute;
     color: #fff;
     bottom: 35px;
     font-size: 14px;
 }
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
 .end span{
     cursor: pointer;
 }
