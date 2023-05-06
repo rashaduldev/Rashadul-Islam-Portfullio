@@ -364,7 +364,7 @@ footer p:nth-child(2){
     margin: 22px 10px;
     text-decoration: none;
 }
-.social .end{
+#end{
     position: absolute;
     color: #fff;
     bottom: 35px;
@@ -375,9 +375,6 @@ footer p:nth-child(2){
     transition: .3s;
 }
 
-.end span{
-    cursor: pointer;
-}
 @media screen and (max-width:1024px){
     .hero{
 
