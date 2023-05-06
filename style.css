@@ -388,3 +388,13 @@ footer p:nth-child(2){
         flex-direction: column;
     }
 }
+/* Skill part start */
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color: #161616;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Skill part End */
