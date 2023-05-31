@@ -172,13 +172,15 @@ button:hover{
 }
 .full_team{
     background-color:  #101010;
+    width: 100%;
+    padding: 100px 0px;
 }
 .full_team h2{
     color: #fff;
     font-size: 75px;
     width: 1130px;
     /* height: auto; */
-    margin: 0px auto;
+    margin: 20px auto;
     text-align: center; 
 }
 .all_person{
@@ -226,6 +228,9 @@ button:hover{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+}
+#middle_button{
+    
 }
 .person .button:hover{
     background-color: transparent;
