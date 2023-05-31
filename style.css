@@ -112,6 +112,7 @@ h4{
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
+
 }
 .about img{
     height: auto;
@@ -166,6 +167,9 @@ button:hover{
 /* About Part End */
 
 /* team part */
+#fullteamm{
+    background-color: black !important  ;
+}
 .full_team{
     background-color:  #101010;
 }
@@ -173,8 +177,9 @@ button:hover{
     color: #fff;
     font-size: 75px;
     width: 1130px;
+    /* height: auto; */
     margin: 0px auto;
-    text-align: center;
+    text-align: center; 
 }
 .all_person{
     display: flex;
