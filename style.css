@@ -230,7 +230,7 @@ button:hover{
     transition: .4s;
 }
 #middle_button{
-    
+    margin-top: -15px;
 }
 .person .button:hover{
     background-color: transparent;
