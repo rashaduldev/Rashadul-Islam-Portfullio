@@ -407,3 +407,6 @@ footer p:nth-child(2){
     background-position: center;
 }
 /* Skill part End */
+@media screen and (max-width:600px){
+  
+}
