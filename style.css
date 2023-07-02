@@ -242,6 +242,10 @@ button:hover{
     background-color: #101010;
     width: 100%;
     padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 .title h2{
     color: #fff;
