@@ -170,6 +170,10 @@ button:hover{
 #fullteamm{
     background-color: black !important  ;
 }
+.team{
+   text-align: center;
+
+}
 .full_team{
     background-color:  #101010;
     width: 100%;
@@ -194,21 +198,31 @@ button:hover{
     margin-bottom: 25px;
 }
 .person{
+    margin: 15px;
+    background: #191919;
+    padding: 20px 35px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    width: 355px;
+    /* position:absolute; */
+    /* 
     height: 400px;
     width: 335px;
-    padding: 20px 35px;
-    background: #191919;
-    margin: 15px;
-    border-radius: 20px;
+    
     position: relative;
-    overflow: hidden;
-    text-align: center;
+    overflow: hidden; */
+    
 }
 .person .img-container{
-    display: flex;
+    display: flex;   
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .person .img{
+    display: flex;
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -431,3 +445,9 @@ footer p:nth-child(2){
         justify-content: center;
     }
 }
+@media only screen and (max-width: 300px) {
+    .person {
+      display: inline-block;
+      flex-direction: row;
+    }
+  }
