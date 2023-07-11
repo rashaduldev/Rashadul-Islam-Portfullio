@@ -170,10 +170,6 @@ button:hover{
 #fullteamm{
     background-color: black !important  ;
 }
-.team{
-   text-align: center;
-
-}
 .full_team{
     background-color:  #101010;
     width: 100%;
@@ -198,31 +194,21 @@ button:hover{
     margin-bottom: 25px;
 }
 .person{
-    margin: 15px;
-    background: #191919;
-    padding: 20px 35px;
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    height: 400px;
-    width: 355px;
-    /* position:absolute; */
-    /* 
     height: 400px;
     width: 335px;
-    
+    padding: 20px 35px;
+    background: #191919;
+    margin: 15px;
+    border-radius: 20px;
     position: relative;
-    overflow: hidden; */
-    
+    overflow: hidden;
+    text-align: center;
 }
 .person .img-container{
-    display: flex;   
-    text-align: center;
-    align-items: center;
+    display: flex;
     justify-content: center;
 }
 .person .img{
-    display: flex;
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -256,10 +242,6 @@ button:hover{
     background-color: #101010;
     width: 100%;
     padding: 100px 0px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
 }
 .title h2{
     color: #fff;
@@ -267,10 +249,7 @@ button:hover{
     width: 1130px;
     margin: 30px auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
-
 .box{
     display: flex;
     justify-content: center;
@@ -322,6 +301,29 @@ h5{
     cursor: pointer;
 }
 /* services part end */
+
+/* send messahe part start */
+.mgs_container{
+    display: flex;
+    margin: 0px 0px;
+   
+}
+.mgs_coloum{
+    width: 50%;
+    text-align: center;
+}
+.mgs_coloum >input{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px 0px;
+    margin: 10px;
+}
+.mgs_coloum >button:hover{
+    background-color: #858585;
+}
+textarea{
+    border: 1px solid black;
+}
 /* <!-- Contact me part start --> */
 
 .contact_me{
@@ -329,7 +331,6 @@ h5{
     height: 290px;
     background: #191919;
     display: flex;
-    text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -357,7 +358,6 @@ h5{
 }
 /* <!-- Contact me part end --> */
 /* footer part */
-
 footer{
     position: relative;
     width: 100%;
@@ -365,11 +365,6 @@ footer{
     background: #101010;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer #end{
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -424,6 +419,9 @@ footer p:nth-child(2){
         display: flex;
         flex-direction: column;
     }
+    #aboutthis{
+        color: red;
+       }
 }
 /* Skill part start */
 .skill{
@@ -435,19 +433,3 @@ footer p:nth-child(2){
     background-position: center;
 }
 /* Skill part End */
-@media screen and (min-width:600px){
-    /* footer #end{
-        margin-top: 200px;
-    } */
-    #servicess{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .person {
-      display: inline-block;
-      flex-direction: row;
-    }
-  }
